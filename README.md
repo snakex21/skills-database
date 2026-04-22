@@ -29,7 +29,7 @@
 
 ## 🇬🇧 English
 
-A Python MCP (Model Context Protocol) server that provides tools to search, retrieve, and discover skills from a local `skills_index.json` catalog. Designed for integration with AI coding assistants such as [OpenCode](https://github.com/opencode), Claude, Codex, and others.
+A Python MCP (Model Context Protocol) server that provides tools to search, retrieve, and discover skills from a local `skills_index.json` catalog. Designed for integration with AI coding assistants such as [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex, and others.
 
 ### Features
 
@@ -115,7 +115,7 @@ Add to your OpenCode configuration (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇵🇱 Polski
 
-Pythonowy serwer MCP (Model Context Protocol), który udostępnia narzędzia do wyszukiwania, pobierania i odkrywania umiejętności z lokalnego katalogu `skills_index.json`. Zaprojektowany do integracji z asystentami programistycznymi AI takimi jak [OpenCode](https://github.com/opencode), Claude, Codex i inni.
+Pythonowy serwer MCP (Model Context Protocol), który udostępnia narzędzia do wyszukiwania, pobierania i odkrywania umiejętności z lokalnego katalogu `skills_index.json`. Zaprojektowany do integracji z asystentami programistycznymi AI takimi jak [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex i inni.
 
 ### Funkcje
 
@@ -201,7 +201,7 @@ Dodaj do konfiguracji OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇩🇪 Deutsch
 
-Ein Python MCP-Server (Model Context Protocol), der Tools zum Suchen, Abrufen und Entdecken von Fähigkeiten aus einem lokalen `skills_index.json`-Katalog bereitstellt. Entwickelt für die Integration mit KI-Coding-Assistants wie [OpenCode](https://github.com/opencode), Claude, Codex und anderen.
+Ein Python MCP-Server (Model Context Protocol), der Tools zum Suchen, Abrufen und Entdecken von Fähigkeiten aus einem lokalen `skills_index.json`-Katalog bereitstellt. Entwickelt für die Integration mit KI-Coding-Assistants wie [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex und anderen.
 
 ### Funktionen
 
@@ -287,7 +287,7 @@ Füge dies deiner OpenCode-Konfiguration (`~/.config/opencode/opencode.jsonc`) h
 
 ## 🇪🇸 Español
 
-Un servidor MCP (Model Context Protocol) en Python que proporciona herramientas para buscar, recuperar y descubrir habilidades desde un catálogo local `skills_index.json`. Diseñado para la integración con asistentes de codificación por IA como [OpenCode](https://github.com/opencode), Claude, Codex y otros.
+Un servidor MCP (Model Context Protocol) en Python que proporciona herramientas para buscar, recuperar y descubrir habilidades desde un catálogo local `skills_index.json`. Diseñado para la integración con asistentes de codificación por IA como [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex y otros.
 
 ### Características
 
@@ -373,7 +373,7 @@ Añade a tu configuración de OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇨🇳 中文
 
-一个 Python MCP（Model Context Protocol）服务器，提供从本地 `skills_index.json` 目录中搜索、检索和发现技能的工具。专为与 AI 编程助手如 [OpenCode](https://github.com/opencode)、Claude、Codex 等集成而设计。
+一个 Python MCP（Model Context Protocol）服务器，提供从本地 `skills_index.json` 目录中搜索、检索和发现技能的工具。专为与 AI 编程助手如 [OpenCode](https://github.com/anomalyco/opencode)、Claude、Codex 等集成而设计。
 
 ### 功能特性
 
@@ -459,7 +459,7 @@ python server.py
 
 ## 🇫🇷 Français
 
-Un serveur MCP (Model Context Protocol) en Python qui fournit des outils pour rechercher, récupérer et découvrir des compétences depuis un catalogue local `skills_index.json`. Conçu pour l'intégration avec des assistants de codage IA tels que [OpenCode](https://github.com/opencode), Claude, Codex et d'autres.
+Un serveur MCP (Model Context Protocol) en Python qui fournit des outils pour rechercher, récupérer et découvrir des compétences depuis un catalogue local `skills_index.json`. Conçu pour l'intégration avec des assistants de codage IA tels que [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex et d'autres.
 
 ### Fonctionnalités
 
@@ -545,7 +545,7 @@ Ajoutez à votre configuration OpenCode (`~/.config/opencode/opencode.jsonc`) :
 
 ## 🇫🇮 Suomi
 
-Python MCP -palvelin (Model Context Protocol), joka tarjoaa työkaluja paikallisen `skills_index.json`-katalogin taitojen etsimiseen, noutamiseen ja löytämiseen. Suunniteltu integroitavaksi tekoälyohjelmointiavustajiin kuten [OpenCode](https://github.com/opencode), Claude, Codex ja muut.
+Python MCP -palvelin (Model Context Protocol), joka tarjoaa työkaluja paikallisen `skills_index.json`-katalogin taitojen etsimiseen, noutamiseen ja löytämiseen. Suunniteltu integroitavaksi tekoälyohjelmointiavustajiin kuten [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex ja muut.
 
 ### Ominaisuudet
 
@@ -631,7 +631,7 @@ Lisää OpenCode-konfiguraatioosi (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇨🇿 Čeština
 
-Pythonový MCP server (Model Context Protocol), který poskytuje nástroje pro vyhledávání, získávání a objevování dovedností z místního katalogu `skills_index.json`. Navrženo pro integraci s AI asistenty pro programování jako [OpenCode](https://github.com/opencode), Claude, Codex a další.
+Pythonový MCP server (Model Context Protocol), který poskytuje nástroje pro vyhledávání, získávání a objevování dovedností z místního katalogu `skills_index.json`. Navrženo pro integraci s AI asistenty pro programování jako [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex a další.
 
 ### Funkce
 
@@ -717,7 +717,7 @@ Přidejte do konfigurace OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇸🇰 Slovenčina
 
-Pythonový MCP server (Model Context Protocol), ktorý poskytuje nástroje na vyhľadávanie, získavanie a objavovanie zručností z lokálneho katalógu `skills_index.json`. Navrhnutý pre integráciu s AI asistentmi pre programovanie ako [OpenCode](https://github.com/opencode), Claude, Codex a ďalšie.
+Pythonový MCP server (Model Context Protocol), ktorý poskytuje nástroje na vyhľadávanie, získavanie a objavovanie zručností z lokálneho katalógu `skills_index.json`. Navrhnutý pre integráciu s AI asistentmi pre programovanie ako [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex a ďalšie.
 
 ### Funkcie
 
@@ -803,7 +803,7 @@ Pridajte do konfigurácie OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ## 🇷🇺 Русский
 
-Python MCP-сервер (Model Context Protocol), предоставляющий инструменты для поиска, получения и обнаружения навыков из локального каталога `skills_index.json`. Предназначен для интеграции с AI-ассистентами для программирования, такими как [OpenCode](https://github.com/opencode), Claude, Codex и другие.
+Python MCP-сервер (Model Context Protocol), предоставляющий инструменты для поиска, получения и обнаружения навыков из локального каталога `skills_index.json`. Предназначен для интеграции с AI-ассистентами для программирования, такими как [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex и другие.
 
 ### Возможности
 
@@ -889,7 +889,7 @@ python server.py
 
 ## 🇧🇾 Беларуская
 
-Python MCP-сервер (Model Context Protocol), які забяспечвае інструменты для пошуку, атрымання і выяўлення навыкаў з лакальнага каталога `skills_index.json`. Прызначаны для інтэграцыі з AI-асістэнтамі для праграмавання, такімі як [OpenCode](https://github.com/opencode), Claude, Codex і іншыя.
+Python MCP-сервер (Model Context Protocol), які забяспечвае інструменты для пошуку, атрымання і выяўлення навыкаў з лакальнага каталога `skills_index.json`. Прызначаны для інтэграцыі з AI-асістэнтамі для праграмавання, такімі як [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex і іншыя.
 
 ### Магчымасці
 
@@ -975,7 +975,7 @@ python server.py
 
 ## 🇺🇦 Українська
 
-Python MCP-сервер (Model Context Protocol), який забезпечує інструменти для пошуку, отримання та виявлення навичок з локального каталогу `skills_index.json`. Призначений для інтеграції з AI-асистентами для програмування, такими як [OpenCode](https://github.com/opencode), Claude, Codex та інші.
+Python MCP-сервер (Model Context Protocol), який забезпечує інструменти для пошуку, отримання та виявлення навичок з локального каталогу `skills_index.json`. Призначений для інтеграції з AI-асистентами для програмування, такими як [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex та інші.
 
 ### Можливості
 
@@ -1061,7 +1061,7 @@ python server.py
 
 ## 🇳🇴 Norsk
 
-En Python MCP-server (Model Context Protocol) som tilbyr verktøy for å søke, hente og oppdage ferdigheter fra en lokal `skills_index.json`-katalog. Designet for integrasjon med AI-kodingsassistenter som [OpenCode](https://github.com/opencode), Claude, Codex og andre.
+En Python MCP-server (Model Context Protocol) som tilbyr verktøy for å søke, hente og oppdage ferdigheter fra en lokal `skills_index.json`-katalog. Designet for integrasjon med AI-kodingsassistenter som [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex og andre.
 
 ### Funksjoner
 
@@ -1147,7 +1147,7 @@ Legg til i din OpenCode-konfigurasjon (`~/.config/opencode/config.json`):
 
 ## 🇸🇪 Svenska
 
-En Python MCP-server (Model Context Protocol) som tillhandahåller verktyg för att söka, hämta och upptäcka färdigheter från en lokal `skills_index.json`-katalog. Designad för integration med AI-kodningsassistenter som [OpenCode](https://github.com/opencode), Claude, Codex och andra.
+En Python MCP-server (Model Context Protocol) som tillhandahåller verktyg för att söka, hämta och upptäcka färdigheter från en lokal `skills_index.json`-katalog. Designad för integration med AI-kodningsassistenter som [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex och andra.
 
 ### Funktioner
 
@@ -1233,7 +1233,7 @@ Lägg till i din OpenCode-konfiguration (`~/.config/opencode/config.json`):
 
 ## 🇩🇰 Dansk
 
-En Python MCP-server (Model Context Protocol), der tilbyder værktøjer til at søge, hente og opdage færdigheder fra en lokal `skills_index.json`-katalog. Designet til integration med AI-kodningsassistenter som [OpenCode](https://github.com/opencode), Claude, Codex og andre.
+En Python MCP-server (Model Context Protocol), der tilbyder værktøjer til at søge, hente og opdage færdigheder fra en lokal `skills_index.json`-katalog. Designet til integration med AI-kodningsassistenter som [OpenCode](https://github.com/anomalyco/opencode), Claude, Codex og andre.
 
 ### Funktioner
 
@@ -1319,7 +1319,7 @@ Tilføj til din OpenCode-konfiguration (`~/.config/opencode/config.json`):
 
 ## 🇯🇵 日本語
 
-ローカルの `skills_index.json` カタログからスキルを検索、取得、発見するためのツールを提供する Python MCP（Model Context Protocol）サーバー。[OpenCode](https://github.com/opencode)、Claude、Codex などの AI コーディングアシスタントとの統合のために設計されています。
+ローカルの `skills_index.json` カタログからスキルを検索、取得、発見するためのツールを提供する Python MCP（Model Context Protocol）サーバー。[OpenCode](https://github.com/anomalyco/opencode)、Claude、Codex などの AI コーディングアシスタントとの統合のために設計されています。
 
 ### 機能
 

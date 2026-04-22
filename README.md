@@ -2,6 +2,29 @@
 
 ---
 
+## 📑 Table of Contents / Spis treści
+
+| Language | Link |
+|----------|------|
+| 🇬🇧 English | [English](#english) |
+| 🇵🇱 Polski | [Polski](#polski) |
+| 🇩🇪 Deutsch | [Deutsch](#deutsch) |
+| 🇪🇸 Español | [Español](#espanol) |
+| 🇨🇳 中文 | [中文](#zhongwen) |
+| 🇫🇷 Français | [Français](#francais) |
+| 🇫🇮 Suomi | [Suomi](#suomi) |
+| 🇨🇿 Čeština | [Čeština](#cestina) |
+| 🇸🇰 Slovenčina | [Slovenčina](#slovencina) |
+| 🇷🇺 Русский | [Русский](#russkiy) |
+| 🇧🇾 Беларуская | [Беларуская](#belaruskaya) |
+| 🇺🇦 Українська | [Українська](#ukrayinska) |
+| 🇳🇴 Norsk | [Norsk](#norsk) |
+| 🇸🇪 Svenska | [Svenska](#svenska) |
+| 🇩🇰 Dansk | [Dansk](#dansk) |
+| 🇯🇵 日本語 | [日本語](#nihongo) |
+
+---
+
 ## 🇬🇧 English
 
 A Python MCP (Model Context Protocol) server that provides tools to search, retrieve, and discover skills from a local `skills_index.json` catalog. Designed for integration with AI coding assistants such as [OpenCode](https://github.com/opencode), Claude, Codex, and others.

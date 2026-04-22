@@ -2,7 +2,7 @@
 
 ## Co to jest
 
-Serwer MCP w Pythonie który wystawia narzędzia do przeszukiwania bazy skills z repozytorium antigravity-awesome-skills. Agent w OpenCode zamiast ładować 1200+ skills do kontekstu, wywołuje konkretne narzędzie i dostaje tylko to czego potrzebuje.
+Serwer MCP w Pythonie który wystawia narzędzia do przeszukiwania bazy skills z repozytorium skills-database. Agent w OpenCode zamiast ładować 1200+ skills do kontekstu, wywołuje konkretne narzędzie i dostaje tylko to czego potrzebuje.
 
 ---
 
@@ -25,8 +25,8 @@ C:\Programy\MCP\skills-mcp\
 
 Serwer czyta dane z:
 ```
-C:\Programy\MCP\antigravity-awesome-skills-main\skills_index.json
-C:\Programy\MCP\antigravity-awesome-skills-main\skills\
+C:\Programy\MCP\skills-database\skills_index.json
+C:\Programy\MCP\skills-database\skills\
 ```
 
 ---
@@ -34,8 +34,8 @@ C:\Programy\MCP\antigravity-awesome-skills-main\skills\
 ## Stałe na początku server.py
 
 ```python
-SKILLS_INDEX_PATH = r"C:\Programy\MCP\antigravity-awesome-skills-main\skills_index.json"
-SKILLS_DIR = r"C:\Programy\MCP\antigravity-awesome-skills-main\skills"
+SKILLS_INDEX_PATH = r"C:\Programy\MCP\skills-database\skills_index.json"
+SKILLS_DIR = r"C:\Programy\MCP\skills-database\skills"
 MAX_RESULTS = 5
 MAX_SKILL_CONTENT_CHARS = 8000
 ```

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MCP Server for Antigravity Skills Index.
+MCP Server for Skills Database.
 
 Provides tools to search, retrieve, and discover skills from the local
 skills_index.json catalog. Loaded once at startup via lifespan management.

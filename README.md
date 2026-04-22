@@ -25,6 +25,8 @@
 
 ---
 
+<a name="english"></a>
+
 ## 🇬🇧 English
 
 A Python MCP (Model Context Protocol) server that provides tools to search, retrieve, and discover skills from a local `skills_index.json` catalog. Designed for integration with AI coding assistants such as [OpenCode](https://github.com/opencode), Claude, Codex, and others.
@@ -78,15 +80,15 @@ python server.py
 
 ### Integration with OpenCode
 
-Add to your OpenCode configuration (`~/.config/opencode/config.json`):
+Add to your OpenCode configuration (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absolute/path/to/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absolute/path/to/server.py"],
+      "enabled": true
     }
   }
 }
@@ -108,6 +110,8 @@ Add to your OpenCode configuration (`~/.config/opencode/config.json`):
 | `catalog://info` | Returns metadata about the loaded skills catalog (total count, categories) |
 
 ---
+
+<a name="polski"></a>
 
 ## 🇵🇱 Polski
 
@@ -162,15 +166,15 @@ python server.py
 
 ### Integracja z OpenCode
 
-Dodaj do konfiguracji OpenCode (`~/.config/opencode/config.json`):
+Dodaj do konfiguracji OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absolutna/sciezka/do/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absolutna/sciezka/do/server.py"],
+      "enabled": true
     }
   }
 }
@@ -192,6 +196,8 @@ Dodaj do konfiguracji OpenCode (`~/.config/opencode/config.json`):
 | `catalog://info` | Zwraca metadane załadowanego katalogu umiejętności (liczba całkowita, kategorie) |
 
 ---
+
+<a name="deutsch"></a>
 
 ## 🇩🇪 Deutsch
 
@@ -246,15 +252,15 @@ python server.py
 
 ### Integration mit OpenCode
 
-Füge dies deiner OpenCode-Konfiguration (`~/.config/opencode/config.json`) hinzu:
+Füge dies deiner OpenCode-Konfiguration (`~/.config/opencode/opencode.jsonc`) hinzu:
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absoluter/pfad/zu/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absoluter/pfad/zu/server.py"],
+      "enabled": true
     }
   }
 }
@@ -276,6 +282,8 @@ Füge dies deiner OpenCode-Konfiguration (`~/.config/opencode/config.json`) hinz
 | `catalog://info` | Gibt Metadaten über den geladenen Fähigkeitenkatalog zurück (Gesamtzahl, Kategorien) |
 
 ---
+
+<a name="espanol"></a>
 
 ## 🇪🇸 Español
 
@@ -330,15 +338,15 @@ python server.py
 
 ### Integración con OpenCode
 
-Añade a tu configuración de OpenCode (`~/.config/opencode/config.json`):
+Añade a tu configuración de OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/ruta/absoluta/a/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/ruta/absoluta/a/server.py"],
+      "enabled": true
     }
   }
 }
@@ -360,6 +368,8 @@ Añade a tu configuración de OpenCode (`~/.config/opencode/config.json`):
 | `catalog://info` | Devuelve metadatos sobre el catálogo de habilidades cargado (conteo total, categorías) |
 
 ---
+
+<a name="zhongwen"></a>
 
 ## 🇨🇳 中文
 
@@ -414,15 +424,15 @@ python server.py
 
 ### 与 OpenCode 集成
 
-添加到你的 OpenCode 配置 (`~/.config/opencode/config.json`)：
+添加到你的 OpenCode 配置 (`~/.config/opencode/opencode.jsonc`)：
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absolute/path/to/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absolute/path/to/server.py"],
+      "enabled": true
     }
   }
 }
@@ -444,6 +454,8 @@ python server.py
 | `catalog://info` | 返回已加载技能目录的元数据（总数、分类） |
 
 ---
+
+<a name="francais"></a>
 
 ## 🇫🇷 Français
 
@@ -498,15 +510,15 @@ python server.py
 
 ### Intégration avec OpenCode
 
-Ajoutez à votre configuration OpenCode (`~/.config/opencode/config.json`) :
+Ajoutez à votre configuration OpenCode (`~/.config/opencode/opencode.jsonc`) :
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/chemin/absolu/vers/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/chemin/absolu/vers/server.py"],
+      "enabled": true
     }
   }
 }
@@ -528,6 +540,8 @@ Ajoutez à votre configuration OpenCode (`~/.config/opencode/config.json`) :
 | `catalog://info` | Retourne les métadonnées du catalogue de compétences chargé (nombre total, catégories) |
 
 ---
+
+<a name="suomi"></a>
 
 ## 🇫🇮 Suomi
 
@@ -582,15 +596,15 @@ python server.py
 
 ### Integrointi OpenCoden kanssa
 
-Lisää OpenCode-konfiguraatioosi (`~/.config/opencode/config.json`):
+Lisää OpenCode-konfiguraatioosi (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absoluuttinen/polku/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absoluuttinen/polku/server.py"],
+      "enabled": true
     }
   }
 }
@@ -612,6 +626,8 @@ Lisää OpenCode-konfiguraatioosi (`~/.config/opencode/config.json`):
 | `catalog://info` | Palauttaa ladatun taitokatalogin metatiedot (kokonaismäärä, kategoriat) |
 
 ---
+
+<a name="cestina"></a>
 
 ## 🇨🇿 Čeština
 
@@ -666,15 +682,15 @@ python server.py
 
 ### Integrace s OpenCode
 
-Přidejte do konfigurace OpenCode (`~/.config/opencode/config.json`):
+Přidejte do konfigurace OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absolutni/cesta/k/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absolutni/cesta/k/server.py"],
+      "enabled": true
     }
   }
 }
@@ -696,6 +712,8 @@ Přidejte do konfigurace OpenCode (`~/.config/opencode/config.json`):
 | `catalog://info` | Vrátí metadata o načteném katalogu dovedností (celkový počet, kategorie) |
 
 ---
+
+<a name="slovencina"></a>
 
 ## 🇸🇰 Slovenčina
 
@@ -750,15 +768,15 @@ python server.py
 
 ### Integrácia s OpenCode
 
-Pridajte do konfigurácie OpenCode (`~/.config/opencode/config.json`):
+Pridajte do konfigurácie OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/absolutna/cesta/k/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/absolutna/cesta/k/server.py"],
+      "enabled": true
     }
   }
 }
@@ -780,6 +798,8 @@ Pridajte do konfigurácie OpenCode (`~/.config/opencode/config.json`):
 | `catalog://info` | Vrátia metadáta o načtenom katalógu zručností (celkový počet, kategórie) |
 
 ---
+
+<a name="russkiy"></a>
 
 ## 🇷🇺 Русский
 
@@ -834,15 +854,15 @@ python server.py
 
 ### Интеграция с OpenCode
 
-Добавьте в конфигурацию OpenCode (`~/.config/opencode/config.json`):
+Добавьте в конфигурацию OpenCode (`~/.config/opencode/opencode.jsonc`):
 
 ```json
 {
-  "mcpServers": {
-    "skills_database": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/абсолютный/путь/к/skills-database"
+  "mcp": {
+    "skills-search": {
+      "type": "local",
+      "command": ["python", "/абсолютный/путь/к/server.py"],
+      "enabled": true
     }
   }
 }
@@ -864,6 +884,8 @@ python server.py
 | `catalog://info` | Возвращает метаданные загруженного каталога навыков (общее количество, категории) |
 
 ---
+
+<a name="belaruskaya"></a>
 
 ## 🇧🇾 Беларуская
 
@@ -949,6 +971,8 @@ python server.py
 
 ---
 
+<a name="ukrayinska"></a>
+
 ## 🇺🇦 Українська
 
 Python MCP-сервер (Model Context Protocol), який забезпечує інструменти для пошуку, отримання та виявлення навичок з локального каталогу `skills_index.json`. Призначений для інтеграції з AI-асистентами для програмування, такими як [OpenCode](https://github.com/opencode), Claude, Codex та інші.
@@ -1032,6 +1056,8 @@ python server.py
 | `catalog://info` | Повертає метадані завантаженого каталогу навичок (загальна кількість, категорії) |
 
 ---
+
+<a name="norsk"></a>
 
 ## 🇳🇴 Norsk
 
@@ -1117,6 +1143,8 @@ Legg til i din OpenCode-konfigurasjon (`~/.config/opencode/config.json`):
 
 ---
 
+<a name="svenska"></a>
+
 ## 🇸🇪 Svenska
 
 En Python MCP-server (Model Context Protocol) som tillhandahåller verktyg för att söka, hämta och upptäcka färdigheter från en lokal `skills_index.json`-katalog. Designad för integration med AI-kodningsassistenter som [OpenCode](https://github.com/opencode), Claude, Codex och andra.
@@ -1201,6 +1229,8 @@ Lägg till i din OpenCode-konfiguration (`~/.config/opencode/config.json`):
 
 ---
 
+<a name="dansk"></a>
+
 ## 🇩🇰 Dansk
 
 En Python MCP-server (Model Context Protocol), der tilbyder værktøjer til at søge, hente og opdage færdigheder fra en lokal `skills_index.json`-katalog. Designet til integration med AI-kodningsassistenter som [OpenCode](https://github.com/opencode), Claude, Codex og andre.
@@ -1284,6 +1314,8 @@ Tilføj til din OpenCode-konfiguration (`~/.config/opencode/config.json`):
 | `catalog://info` | Returnerer metadata om den lastede færdigheds katalog (totalt antal, kategorier) |
 
 ---
+
+<a name="nihongo"></a>
 
 ## 🇯🇵 日本語
 
